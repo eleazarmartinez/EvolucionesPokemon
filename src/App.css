@@ -1,0 +1,25 @@
+
+.boton{
+
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px;
+}
+.cont__targetas{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

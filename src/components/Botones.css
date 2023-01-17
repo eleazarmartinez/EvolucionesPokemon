@@ -1,0 +1,35 @@
+.cont__botones{
+ position: relative;
+   isolation: isolate;
+   margin-bottom: 30px;
+}
+
+
+.botones{
+    height: 60px;
+    width: 60px;
+    border-radius:  100vmax;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 300;
+    display: grid;
+    background-color: var(--color1);
+    place-content: center;
+    z-index: 2;
+}
+.botones:active{
+    transform: translateY(4px);
+}
+
+
+.fondBtn{
+    height: 60px;
+    width: 60px;
+    border-radius:  100vmax;
+    background-color: var(--color2);
+    position: absolute;
+    top: 5px;
+    z-index: -2;
+
+}
